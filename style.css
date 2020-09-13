@@ -1,0 +1,55 @@
+*{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-image: url(bg.jpg);
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrapper{
+  text-align: center;
+}
+
+.btn{
+  background-color: hotpink;
+  color: #333;
+  cursor: pointer;
+}
+
+.inputfeild{
+  width: 40%;
+  color: royalblue;
+}
+
+.ans{
+  border: 5px solid yellowgreen;
+  font-size: large;
+  margin: auto;
+  padding: 30px;
+  width: fit-content;
+  /*visibility: hidden;*/
+}
+
+.ans div{
+  color: hotpink;
+}
+
+.infix{
+  color: cornflowerblue;
+  font-size: larger;
+}
+
+.postfix{
+  color: red;
+  font-size: larger;
+}
+
