@@ -128,7 +128,7 @@ var logicController = (function(stack){
       index++;
     }
 
-    var resStr = postfix.join(' ');
+    var resStr = postfix.join('');
     console.log(" ");
     console.log(resStr);
 
