@@ -1,8 +1,11 @@
 console.log('hello rrruuuuupeeee.........');
 
+document.querySelector('.ans').style.display = 'none';
+
 var UIController = (function(){
     return {
        displayResult: function(ip, op){
+           document.querySelector('.ans').style.display = 'block';
           document.querySelector('.infix').innerHTML = ip;
           document.querySelector('.postfix').innerHTML = op;
        }
